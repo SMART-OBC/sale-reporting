@@ -10,10 +10,7 @@
         </th>
         <td name="td_name" position="before">
             <td name="td_image">
-                <span
-                    t-field="line.product_id.image_128"
-                    t-options="{'widget': 'image', 'max_width': '64', 'class': 'rounded'}"
-                />
+	        <span t-field="line.product_id.image_128" t-options="{'widget': 'image', 'max_width': '90', 'class': 'rounded'}" t-options-qweb_img_raw_data="1"/>
             </td>
         </td>
     </template>
